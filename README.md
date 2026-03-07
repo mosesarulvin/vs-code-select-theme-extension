@@ -7,8 +7,11 @@ A simple and convenient VS Code extension that allows you to quickly browse and 
 ## 🚀 Features
 
 - **Quick theme switching:** Instantly open the theme picker from the top-right color palette icon
-- **Current theme indicator:** The status bar always shows your current theme name
 - **Easy access:** Command Palette and toolbar icon
+
+## Future enhancement
+
+- **Current theme indicator:** The status bar always shows your current theme name
 - **Auto-updates:** Status bar updates automatically when you change themes
 
 ---
@@ -39,6 +42,9 @@ A simple and convenient VS Code extension that allows you to quickly browse and 
 
 - **Toolbar Icon:** Click the color palette icon (🎨) in the top-right corner of the editor to open the theme picker
 - **Command Palette:** Press `Ctrl+Shift+P` (or `Cmd+Shift+P` on Mac), type `Select Theme`, and press Enter
+
+## Future enhancement
+
 - **Status Bar:** The current theme name is always shown in the bottom right. Click it to manually refresh if needed
 
 ---

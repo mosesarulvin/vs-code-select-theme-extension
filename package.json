@@ -2,7 +2,7 @@
   "name": "select-theme",
   "displayName": "Select Theme",
   "description": "Instantly browse, preview, and switch between all your installed VS Code themes using a convenient, quick-access dropdown menu.",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "publisher": "SelectTheme",
   "icon": "images/icon.png",
   "engines": {

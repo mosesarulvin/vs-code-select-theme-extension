@@ -2,7 +2,7 @@
   "name": "select-theme",
   "displayName": "Select Theme",
   "description": "Instantly browse, preview, and switch between all your installed VS Code themes using a convenient, quick-access dropdown menu.",
-  "version": "3.0.0",
+  "version": "1.1.0",
   "publisher": "SelectTheme",
   "icon": "images/icon.png",
   "engines": {
@@ -11,7 +11,7 @@
   "categories": [
     "Other"
   ],
-  "activationEvents": [],
+  "activationEvents": ["onStartupFinished"],
   "main": "./extension.js",
   "contributes": {
     "commands": [
@@ -19,13 +19,31 @@
         "command": "select-theme.selectTheme",
         "title": "Select Theme",
         "icon": "$(symbol-color)"
+      },
+      {
+        "command": "select-theme.standardTheme",
+        "title": "Toggle Mode (Light/Dark)",
+        "icon": "$(color-mode)"
+      },
+      {
+        "command": "select-theme.toggleAutoDetect",
+        "title": "Toggle Auto-Detect Color Scheme",
+        "icon": "$(sync)"
       }
     ],
     "menus": {
       "editor/title": [
         {
+          "command": "select-theme.toggleAutoDetect",
+          "group": "navigation@1"
+        },
+        {
+          "command": "select-theme.standardTheme",
+          "group": "navigation@2"
+        },
+        {
           "command": "select-theme.selectTheme",
-          "group": "navigation"
+          "group": "navigation@3"
         }
       ]
     }

@@ -1,5 +1,7 @@
 # Select Theme - VS Code Extension
 
+## Welcome to Moses Arulvin Theme Manager
+
 Instantly browse, preview, and switch between all your installed VS Code themes with convenient toolbar buttons and a real-time status bar indicator.
 
 ---

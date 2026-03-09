@@ -2,6 +2,15 @@
 
 ## Welcome to Moses Arulvin Theme Manager
 
+### Contact me through
+
+- **mosesarulvin@gmail.com**
+- **8489844082**
+
+---
+
+### Description of this extension
+
 Instantly browse, preview, and switch between all your installed VS Code themes with convenient toolbar buttons and a real-time status bar indicator.
 
 ---
